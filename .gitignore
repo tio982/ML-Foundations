@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.conda/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data artifacts
+data/raw/
+!data/raw/
+!data/raw/.gitkeep
+!data/raw/README.md
+data/interim/
+data/processed/
+models/
+
+# OS
+.DS_Store
